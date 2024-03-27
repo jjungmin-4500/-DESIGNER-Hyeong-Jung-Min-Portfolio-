@@ -1,0 +1,142 @@
+.pc_show {
+  display: block;
+}
+.pc_hide {
+  display: none;
+}
+
+.bottom_banner_slide .swiper-button-prev {
+  display: none;
+}
+.bottom_banner_slide .swiper-button-next {
+  display: none;
+}
+
+.now_sale a{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+
+  .now_sale a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .now_sale li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  :root {
+    font-size: 8px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .tb_show {
+    display: block;
+  }
+  .tb_hide {
+    display: none;
+  }
+
+  section .swiper {
+    width: calc(100vw - 80px);
+  }
+
+  .all_view {
+    width: calc(100vw - 80px);
+    border-radius: 5px;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .best-review-banner {
+    border-bottom: 5px solid var(--light-gray);
+    border-top: 5px solid var(--light-gray);
+  }
+
+  .best-review-banner .flex {
+    border-radius: 0;
+  }
+
+  .bottom_banner_slide .swiper-button-prev {
+    display: flex;
+  }
+  .bottom_banner_slide .swiper-button-next {
+    display: flex;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mb_show {
+    display: block;
+  }
+  .mb_hide {
+    display: none;
+  }
+  .open_content {
+    flex-direction: column;
+  }
+  .open_content ul {
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin-left: -20%;
+  }
+  .open_content li {
+    width: calc((100% - 10px) / 2);
+  }
+  .open_content .swiper {
+    width: 150%;
+  }
+
+  .mb_slide .swiper {
+    width: calc(100vw - 100px);
+  }
+
+  section .swiper {
+    width: calc(100vw - 40px);
+  }
+
+  .all_view {
+    width: calc(100vw - 40px);
+    border-radius: 5px;
+  }
+
+  .mdpick .tab_menu {
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .mdpick .tab_btn {
+    margin: 0;
+  }
+
+  .best-review li {
+    width: calc((100% - 50px) / 1);
+  }
+
+  .bottom_banner_slide .swipetmr-button-prev {
+    display: flex;
+  }
+  .bottom_banner_slide .swiper-button-next {
+    display: flex;
+  }
+}

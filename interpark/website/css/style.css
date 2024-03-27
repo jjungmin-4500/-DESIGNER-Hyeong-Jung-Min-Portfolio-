@@ -1,0 +1,652 @@
+/* header */
+
+header {
+  padding: 0 5%;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.hd_top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.hd_left {
+  display: flex;
+  gap: 10px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* menu */
+
+.menu {
+  font-weight: 800;
+  height: 50px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu1 li:hover ::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: black;
+}
+.menu2 li:hover ::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: var(--main-color);
+}
+
+.menu li {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  align-items: center;
+}
+.menu a {
+  display: block;
+  height: 100%;
+  line-height: 30px;
+}
+
+.main_banner ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.main_banner li {
+  width: calc((100% - 20px) / 3);
+  background-color: bisque;
+}
+
+.menu2 {
+  color: var(--main-color);
+}
+
+.mb_header a{
+  display: flex;
+  gap: 10px;
+}
+.mb_header {
+  display: flex;
+  gap: 10px;
+}
+
+.search form {
+  width: 400px;
+  height: 50px;
+  border: 1px solid var(--light-gray);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search button {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: transparent;
+}
+.search input {
+  border: transparent;
+  background-color: transparent;
+  width: 400px;
+  height: 50px;
+  text-align: left;
+  outline: transparent;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.search button img {
+  width: 30px;
+  height: 30px;
+}
+
+.hd_rt {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hd_rt ul {
+  display: flex;
+  gap: 10px;
+}
+
+.hd_rt button {
+  border: transparent;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hd_rt button::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.icon_area {
+  display: flex;
+  gap: 10px;
+}
+
+.icon_area img {
+  width: 30px;
+  height: 30px;
+}
+
+.icon_area .down_btn {
+  width: 20px;
+  object-fit: contain;
+  height: 20px;
+  margin-top: -5px;
+}
+
+.icon_area a:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hd_bt {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+/* main_slider */
+
+.main_slide {
+  padding-top: 150px;
+  position: relative;
+}
+
+.thumb {
+  position: absolute;
+  left: 5%;
+  bottom: 50px;
+  width: 70%;
+}
+
+.main_slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide-visible {
+  filter: brightness(0.5);
+}
+.swiper-slide-thumb-active {
+  filter: brightness(1);
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.main_banner,
+section {
+  width: 1100px;
+  padding: 50px 0;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ranking */
+
+.swiper-slide .swiper-slide{
+  position: relative;
+}
+
+.ranking .tab_contents p{
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.603);
+
+}
+
+/* 티켓 오픈 */
+
+.open_content li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.open_content a{
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+}
+
+.open_content a img{
+  border-radius: 10px 0 0 10px;
+}
+
+/* 인터파크 play */
+
+.play .tab_txt img{
+  width: 50px;
+}
+
+.play .tab_txt {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.play .tab_txt span {
+  padding: 0 0 0 10px ;
+  text-align: left;
+}
+.play .swiper-slide {
+  border: 1px solid var(--light-gray);
+  border-radius: 10px;
+}
+
+.play video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 지금 할인중 */
+
+.now_sale img{
+  width: 132px;
+  height: 176px;
+}
+
+.now_sale span{
+  display: flex;
+  width: 100%;
+}
+
+.time_dell em:nth-child(1){
+  background-color: red;
+  color: #fff;
+  height: 20px;
+  line-height: 20px;
+  width: 50px;
+  border-radius: 5px 0 0 5px;
+  font-weight: bold;
+}
+.time_dell em:nth-child(2){
+  height: 20px;
+  line-height: 20px;
+  width: 80px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 0 5px 5px 0;
+  box-sizing: border-box;
+}
+
+
+.pr_sale{
+  height: 20px;
+  line-height: 20px;
+  width: 80px;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+
+
+/* md pick */
+.mdpick .tab_menu li img{
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+/* best-review */
+
+.best-review-banner .flex {
+  width: 1100px;
+  height: 112px;
+  background-color: #6742d8;
+  border-radius: 10px;
+}
+
+.best-review-banner .flex img {
+  object-fit: contain;
+}
+
+/* 베스트 관람후기 */
+
+.best-review img {
+  width: 150px;
+  height: 200px;
+}
+
+.best-review ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-review li {
+  width: calc((100% - 50px) / 2);
+}
+
+.best-review li a {
+  display: flex;
+}
+
+.best-review .txt_box {
+  padding-right: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.best-review .txt_box p {
+  text-align: left;
+}
+
+/* bottom_banner_slide */
+.bottom_banner_slide img {
+  width: 100%;
+  height: 104px;
+  object-fit: contain;
+}
+
+/* footer */
+footer .inner * {
+  text-align: left;
+}
+
+.ft_top,
+.ft_bottom {
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+
+.ft_menu {
+  border-top: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.ft_menu ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5%;
+  box-sizing: border-box;
+}
+
+.ft_menu li {
+  position: relative;
+}
+
+.ft_menu li::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: var(--light-gray);
+  left: calc(100% + 30px);
+}
+
+.ft_menu li:last-child::after {
+  display: none;
+}
+
+.tb_ft_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1% 0;
+  box-sizing: border-box;
+}
+
+.tb_ft_menu ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.tb_ft_txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tb_ft_menu,
+.tb_ft_txt {
+  display: none;
+}
+
+.ft_top {
+  display: flex;
+  gap: 100px;
+  width: 100%;
+}
+
+/* mb_header */
+
+.mb_header img {
+  width: 30px;
+}
+
+.mb_header a {
+  display: flex;
+  align-items: center;
+}
+
+.mb_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  background-color: #fff;
+}
+
+.mb_search {
+  border: 1px solid var(--light-gray);
+  width: 90%;
+  border-radius: 50px;
+}
+
+.mb_search form {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.mb_search button {
+  width: 20px;
+  height: 20px;
+}
+
+.mb_search button img {
+  width: 90%;
+}
+
+.mb_slide {
+  padding-top: 50px;
+  overflow: hidden;
+}
+.mb_slide .swiper {
+  width: calc(100vw - 200px);
+  border-radius: 10px;
+}
+.mb_menu img {
+  width: 20px;
+}
+
+.mb_menu {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 40;
+  height: 50px;
+  background-color: #fff;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid var(--light-gray);
+}
+
+.mb_menu img {
+  width: 20px;
+  height: 20px;
+}
+
+.mb_menu a {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb_icon_area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.mb_icon_area li {
+  width: calc((100% - 80px) / 5);
+}
+
+.mb_icon_area a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang {
+  position: relative;
+}
+
+.lang_view {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.lang_view a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lang_view a img {
+  width: 30px;
+  height: 30px;
+}
+
+.mb_footer {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_inbox {
+  width: 50%;
+}
+
+.mb_footer * {
+  text-align: left;
+}
+
+.flex_inbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flex_inbox ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.open_content a {
+  display: flex;
+}
+
+.open_content img {
+  width: 140px;
+  height: 185px;
+}
+
+.open_content .txt_box {
+  padding-left: 20px;
+}

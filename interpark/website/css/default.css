@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+.overtxt_1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.best-review .content_tit {
+  font-weight: bold;
+  font-size: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.overtxt_4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:4;
+  -webkit-box-orient: vertical;
+}
+
+.best-review .content_txt{
+  padding-top: 10px;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* color style */
+:root {
+  font-size: 10px;
+  --main-color: #8e43e7;
+  --light-gray: #ddd;
+  --red-color: #ff1f5b;
+}
+
+/* text style */
+.tit_h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+/* button component */
+.all_view {
+  padding: 20px 50px;
+  border: 1px solid var(--light-gray);
+  background: transparent;
+  border-radius: 50px;
+  font-size: 1.8rem;
+  font-weight: 800;
+  transition: all 0.5s;
+}
+
+.all_view_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.all_view:hover{
+  background-color: var(--light-gray);
+}
+
+li.active .tab_btn {
+  background-color: var(--main-color);
+  color: #fff;
+  border: transparent;
+}
+
+/* tab menu */
+
+.tab_menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab_btn {
+  padding: 10px 20px;
+  border: transparent;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid var(--light-gray);
+  margin: 20px 0;
+}
+
+/* swiper slider */
+.swiper-button-next {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px gray;
+  opacity: 0.9;
+}
+
+.swiper-button-prev {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px gray;
+  opacity: 0.9;
+}
+
+.swiper-button-next:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-top: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+}
+.swiper-button-prev:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  /* border:  */
+  transform: rotate(45deg);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-left: 2px solid rgb(0, 0, 0);
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mb_icon_area img {
+  width: 30px;
+  height: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt_box strong {
+  display: block;
+  text-align: left;
+}
+
+.content_tit {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.place {
+  color: rgb(75, 75, 75);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.date {
+  color: rgb(125, 125, 125);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.sale {
+  border: 1px solid var(--red-color);
+  color: var(--red-color);
+}
+.seat {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.time {
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.txt_box span {
+  display: block;
+  text-align: left;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.txt_box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.txt_box p {
+  color: rgb(75, 75, 75);
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.rate{
+  font-size: 1.8rem;
+  color: var(--red-color);
+  font-weight: 800;
+}
+
+.won{
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 800;
+}
+.time_dell{
+  font-size: 1.2rem;
+}
+
+.import{
+  color: var(--main-color);
+  font-weight: 800;
+}
+
+.thumb img,
+.main_banner img,
+.ranking img,
+.open_content img,
+.play img,
+.now_sale img,
+.mdpick img,
+.best-review-banner img,
+.best-review img 
+{
+  border-radius: 10px;
+}
