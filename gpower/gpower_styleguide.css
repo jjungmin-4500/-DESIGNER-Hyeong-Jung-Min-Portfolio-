@@ -1,0 +1,231 @@
+/* page */
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.style_hd h1 {
+  font-family: "JalnanGothic";
+  color: var(--main-ft-color);
+  position: absolute;
+  top: 150px;
+  left: 180px;
+  position: fixed;
+}
+.style_hd > h2 {
+  position: absolute;
+  color: var(--main-bg-color);
+  top: 175px;
+  left: 215px;
+  position: fixed;
+}
+
+button {
+  background-color: var(--main-ft-color);
+  border: none;
+  border-radius: 30px;
+  color: var(--main-bg-color);
+  font-family: "JalnanGothic";
+  padding: 12px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: absolute;
+  left: 180px;
+  top: 250px;
+  position: fixed;
+}
+button:hover {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+em{
+  color: rgb(196, 193, 183);
+}
+
+section .style_tt strong {
+  font-family: "JalnanGothic";
+  color: var(--main-bg-color);
+  font-size: 2.5rem;
+  text-align: left;
+}
+section .style_tt em {
+  font-family: "JalnanGothic";
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 10px;
+}
+
+section .style_tt > p {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+section .style_tt {
+  text-align: left;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 250px;
+}
+
+section .style_tt .list ul {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+section .style_tt .color_back {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  gap: 5px;
+  color: white;
+}
+section .style_tt .color_back em{
+  color: white;
+}
+section .style_tt .color1{
+  background-color: #FC6719;
+}
+section .style_tt .color2{
+  background-color: #E21884;
+}
+section .style_tt .color3{
+  background-color: #998366;
+}
+section .style_tt .color4{
+  background-color: #2C1810;
+}
+
+section .style_tt li .rgb,
+section .style_tt li .hex {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section .style_tt li .rgb p,
+section .style_tt li .hex p {
+  font-size: 1.5rem;
+}
+
+.font_img {
+  
+  font-family: 'yg-jalnan';
+  color: var(--main-bg-color);
+  font-size: 6.5rem;
+  text-align: left;
+  border: 1px solid rgb(202, 202, 202);
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.font_box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.font {
+  display: flex;
+  flex-direction: column;
+}
+
+.font_box em {
+  padding-bottom: 20px;
+  font-family: 'yg-jalnan';
+}
+.font_box .font em:nth-child(1) {
+  color: var(--main-bg-color);
+  padding-bottom: 20px;
+  font-family: 'yg-jalnan';
+}
+.font_box2 .font2 em:nth-child(1) {
+  color: var(--main-bg-color);
+  padding-bottom: 20px;
+  font-family: "SUITE-Regular";
+  font-weight: 800;
+}
+.font_box2 .font2 em:nth-child(2) {
+  font-family: "SUITE-Regular";
+}
+
+.font2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.font_box2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.font_box2 .font em:nth-child(1) {
+  color: var(--main-bg-color);
+  padding-bottom: 20px;
+}
+
+.font_box2 .font_img {
+  font-family: "SUITE-Regular";
+}
+.font_box2 .font em {
+  font-family: "SUITE-Regular";
+}
+
+.style_tt .icon li {
+  width: 50px;
+  height: 45px;
+  background-color: rgb(202, 202, 202);
+}
+
+.style_tt .icon ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.res p {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.mokup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mokup span {
+  display: flex;
+  gap: 20px;
+}
+
+.mokup_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.mokup_img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
