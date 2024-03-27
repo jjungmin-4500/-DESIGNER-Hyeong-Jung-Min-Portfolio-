@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IKEA</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script src="fullpage.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" href="fullpage.min.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hd_lt">
+        <div class="logo_search">
+          <div class="logo">
+            <a href="index.html"><img src="image/ikea-logo.svg" alt="" /></a>
+          </div>
+          <div class="search">
+            <form>
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              <input type="search"  placeholder="검색어 입력">
+              <button><i class="fa-solid fa-camera"></i></button>
+            </form>
+          </div>
+        </div>
+        <nav>
+          <ul id="myMenu">
+            <li data-menuanchor="page0" class="active">
+              <a href="#page0"><i class="fa-solid fa-box"></i> 모든 제품</a>
+            </li>
+            <li data-menuanchor="page1">
+              <a href="#page1"
+                ><i class="fa-solid fa-house"></i> 색상별 쇼핑하기</a
+              >
+            </li>
+            <li data-menuanchor="page2">
+              <a href="#page2">베스트셀러</a>
+            </li>
+            <li data-menuanchor="page3">
+              <a href="#page3">수납의 가능성</a>
+            </li>
+            <li data-menuanchor="page4">
+              <a href="#page4">아이디어</a>
+            </li>
+            <li data-menuanchor="page6">
+              <a href="#page6">IKEA</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hd_rt">
+        <ul class="hd_icon1">
+          <li>
+            <a href=""><i class="fa-solid fa-truck"></i>우편 번호 입력</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-shop"></i>매장 선택</a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-regular fa-user"></i>Hej! 로그인 또는 가입하기</a
+            >
+          </li>
+        </ul>
+        <ul class="hd_icon2">
+          <li>
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main id="fullpage">
+      <section class="section" id="sect0">
+        <video
+          src="image/[IKEA] video.mp4"
+          muted
+          loop
+          autoplay
+          data-autopaly
+        ></video>
+      </section>
+      <section class="section" id="sect1">
+        <div class="wrapper">
+          <div class="wrap">
+            <div class="sect1_img1">
+              <div class="ani_img animate__animated">
+                <img src="image/sect1_1.jpg" alt="" />
+              </div>
+              <div class="ani_txt animate__animated">
+                <span>
+                  <h3>NEW 라이프 앳 홈 (Life at Home) 보고서</h3>
+                  <strong>
+                    새로운 라이프 앳 홈 (Life at Home) 보고서는 IKEA가 지난 10
+                    년간 수행한 200여 개 연구를 검토하고, 20여 명의 전문가의
+                    인터뷰, 아홉 편의 라이프 앳 홈 (Lifeat Home) 보고서에서
+                    인사이트를 모은 결과입니다. 전 세계 사람들이 자신의 집을
+                    어떻게 생각하는지, 한국 사람들은 집에 대해 어떠한 생각을
+                    가지고 있는지 재미있는 인사이트와 함께 IKEA의 홈퍼니싱
+                    솔루션도 확인해 보세요!
+                  </strong>
+                </span>
+                <p>자세히 보기</p>
+              </div>
+            </div>
+            <div class="color_pd">
+              <h3>색상별 제품 보러 가기</h3>
+              <div class="color_img">
+                <div>
+                  <img src="image/sect1_color_list1.jpg" alt="" />
+                  <p>브라운</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list2.jpg" alt="" />
+                  <p>오렌지</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list3.jpg" alt="" />
+                  <p>레드</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list4.jpg" alt="" />
+                  <p>그린</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list5.jpg" alt="" />
+                  <p>블루</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list6.jpg" alt="" />
+                  <p>핑크</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list7.jpg" alt="" />
+                  <p>옐로우</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list8.jpg" alt="" />
+                  <p>화이트</p>
+                </div>
+                <div>
+                  <img src="image/sect1_color_list9.jpg" alt="" />
+                  <p>블랙</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sect2">
+        <div class="slide slide1">
+          <div class="flex">
+            <div class="tit_box">
+              <h3>베스트셀러</h3>
+              <strong>GOSIG GOLDEN 고시그 골덴</strong>
+            </div>
+            <div class="img_box">
+              <img src="image/sect2_2.png" alt="" />
+            </div>
+            <div class="txt_box">
+              <p>
+                귀엽고 푹신한 친구가 어디든지 함께하고 함께 놀아줘요. 푹 쉬고
+                싶을 때는 소파에서 친구를 폭신하게 안고 함께 시간을 보낼 수
+                있죠. 어디를 가든 함께 있어줄 사랑스럽고 포근한 친구예요. 편히
+                쉬고 싶을 때는 소파에서 꼭 껴안아 보세요. IKEA 봉제인형은 포옹과
+                놀이, 장난을 좋아하고 포근하며 이야기도 잘 들어줍니다. 안전성
+                테스트를 통과한 믿을 수 있는 제품입니다. 어른과 아이의 가장 좋은
+                친구예요. 언제나 함께 장난도 치고 아늑함도 선사해주죠. <br />
+                <strong>디자이너 Annie Huldén</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide2">
+          <div class="flex">
+            <div class="tit_box">
+              <h3>베스트셀러</h3>
+              <strong>FRAKTA 프락타</strong>
+            </div>
+            <div class="img_box">
+              <img src="image/sect2_3.png" alt="" />
+            </div>
+            <div class="txt_box">
+              <p>
+                보냉가방에는 얼린 음식을 약 2시간 동안 보관할 수 있습니다.
+                어깨에 맬 수 있는 아이스백으로, 해변이나 소풍을 갈 때뿐만 아니라
+                장을 볼 때도 편하게 이용할 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide3">
+          <div class="flex">
+            <div class="tit_box">
+              <h3>베스트셀러</h3>
+              <strong>ANGERSBY 앙에르스뷔</strong>
+            </div>
+            <div class="img_box">
+              <img src="image/sect2_1.png" alt="" />
+            </div>
+            <div class="txt_box">
+              <p>
+                마음에 드신다면 지금 바로 구매해서 집으로 가져가세요. ANGERSBY
+                앙에르스뷔 소파는 차에 실어서 집까지 편하게 운반할 수 있도록
+                만들어졌습니다. 측면에 수납할 수 있는 포켓이 있어 더욱
+                편리합니다. 이 소파는 공간을 효율적으로 활용할 수 있도록
+                포장되어 집까지 편하게 운반할 수 있습니다. 팔걸이 옆쪽의
+                주머니에는 리모컨과 소품 등을 넣어두세요. 10년 보증이
+                적용됩니다. 보증서의 약관을 참조하세요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sect3">
+        <div class="wrap">
+          <div class="txt">
+            <span>
+              <h3>더 나은 일상을 위한 수납 아이디어</h3>
+              <P>
+                물건은 소유한 사람의 정체성과 삶을 드러냅니다. 그리고 우리처럼 물건에도 집이 필요하죠.<br>여러분이 어떤 방법으로 물건을 수납하든 IKEA에서 딱 맞는 솔루션을 찾을 수 있을거예요.
+              </P>
+            </span>
+          </div>
+          <div class="img_box">
+            <div class="bxslider">
+              <div><img src="image/sect3_img1_1.jpg" alt="" /></div>
+              <div><img src="image/sect3_img2_1.jpg" alt="" /></div>
+              <div><img src="image/sect3_img3_1.jpg" alt="" /></div>
+            </div>
+            <div class="bxslider">
+              <div><img src="image/sect3_img1.jpg" alt="" /></div>
+              <div><img src="image/sect3_img2.jpg" alt="" /></div>
+              <div><img src="image/sect3_img3.jpg" alt="" /></div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sect4">
+       <div class="wrapper">
+        <div class="wrap">
+          <h3>홈퍼니싱 아이디어</h3>
+          <div class="img">
+            <img src="image/sect4_main.png" alt="">
+            <span>
+              <strong>공간별 홈퍼니싱 아이디어</strong>
+              <em>공간을 어떻게 꾸며야 할지 막막할 때, 
+                제품을 어떻게 활용해야 할지 잘 모를 때, 여기서 영감을 받아 보세요! 
+                
+                모든 공간별 홈퍼니싱 아이디어와 수납 솔루션,
+                그리고 다양한 제품 활용 팁을 보실 수 있습니다. 
+              </em>
+              <p>아이디어 보러가기</p>
+              
+            </span>
+          </div>
+        </div>
+       </div>
+      </section>
+      <section class="section" id="sect4_2">
+        <div class="wrap">
+          <span>
+            <h3>이웃집 집들이</h3>
+            <P>낯설지만 어딘가 친숙한 공간, 색다른 취향이 켜켜이 쌓인 이웃집에서 영감을 받아보는 건 어떤가요?</P>
+          </span>
+          <div class="slide">
+            <div class="img_box1 img_box">
+              <img
+                class="img1 animate__animated"
+                src="image/sect4_2_img1.jpg"
+                alt=""
+              />
+            </div>
+            <span class="span2">
+              <h3>@creator.mina님의 집으로 놀러 오세요!</h3>
+              <em>내 생각대로 조립하고 꾸민 DIY홈, 
+                삶과 경험이 묻어나는 @creator.mina님의 집
+              </em>
+              <p><a href="">집 보러가기 <i class="fa-solid fa-arrow-right"></i></a></p>
+            </span>
+              <div class="rw_see">
+                <p><a href="">자세히 보기</a></p>
+              </div>
+            <div class="img_box2 img_box">
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_111.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_112.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_113.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_114.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="img_box1 img_box">
+              <img
+                class="img1 animate__animated"
+                src="image/sect4_2_img2.jpg"
+                alt=""
+              />
+            </div>
+            <span class="span2">
+              <h3>@hejdoodoo님의 집으로 놀러 오세요!</h3>
+              <em>아이와 나의 행복이 공존하는 정갈한 공간, ​
+                단정하고 미니멀한 헤이두(hejdoodoo)님의 집들이​
+              </em>
+              <p>집 보러가기 <i class="fa-solid fa-arrow-right"></i></p>
+            </span>
+            <div class="rw_see">
+              <p>자세히 보기</p>
+            </div>
+            <div class="img_box2 img_box">
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_221.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_222.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_223.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_224.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="img_box1 img_box">
+              <img
+                class="img1 animate__animated"
+                src="image/sect4_2_img3.jpg"
+                alt=""
+              />
+            </div>
+            <span class="span2">
+              <h3>@sik.zip님의 집으로 놀러 오세요!</h3>
+              <em>때로는 마케터로, 때로는 식물집사로
+                변화무쌍한 라이프를 가능케 하는 다채로운 @sik.zip 님의 집
+              </em>
+              <p>집 보러가기 <i class="fa-solid fa-arrow-right"></i></p>
+            </span>
+            <div class="rw_see">
+              <p>자세히 보기</p>
+            </div>
+            <div class="img_box2 img_box">
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_331.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_332.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_333.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_334.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="img_box1 img_box">
+              <img
+                class="img1 animate__animated"
+                src="image/sect4_2_img4.jpg"
+                alt=""
+              />
+            </div>
+            <span class="span2">
+              <h3>@my_hollies님의 집으로 놀러 오세요!</h3>
+              <em>내 생각대로 조립하고 꾸민 DIY홈, 
+                삶과 경험이 묻어나는 @creator.mina님의 집
+              </em>
+              <p>집 보러가기 <i class="fa-solid fa-arrow-right"></i></p>
+            </span>
+            <div class="rw_see">
+              <p>자세히 보기</p>
+            </div>
+            <div class="img_box2 img_box">
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_441.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_442.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_443.jpg"
+                alt=""
+              />
+              <img class="rw_img"
+                class="img1 animate__animated"
+                src="image/sect4_2_444.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sect5">
+        <div class="txt_box">
+          <h2>나는 생각한다 고로, IKEA한다</h2>
+          <p>
+            생각을 실현하며 진짜 삶을사는 사람들이 모이는곳, IKEA. <br>
+            IKEA와 함께 여러분의 생각을 공간에 실현시켜 보세요.
+          </p>
+          <a href="">IKEA 바로가기</a>
+        </div>
+      </section>
+      <section class="section fp-auto-height" id="sect6">
+        <div>
+          <a class="top_btn" href="index.html"
+            ><i class="fa-solid fa-chevron-up"></i
+          ></a>
+        </div>
+        <footer>
+          <div class="wrap">
+            <div class="ft_top">
+              <div class="ft_lt">
+                <dl>
+                  <div class="box1_1">
+                    <div class="box1">
+                      <dt>IKEA Family</dt>
+                      <strong
+                        >지금 IKEA Family에 무료로 가입하고 다양한 멤버 전용
+                        혜택을 누리세요.</strong
+                      >
+                      <p>자세히 보기</p>
+                      <em>IKEA Family 가입하기</em>
+                    </div>
+                    <div class="box1">
+                      <dt>IKEA Business Network</dt>
+                      <strong
+                        >여러분의 더 나은 비즈니스 환경을 위한 다양한 혜택들을
+                        받으세요</strong
+                      >
+                      <p>자세히 보기</p>
+                      <em>IKEA Business Network 가입하기</em>
+                    </div>
+                  </div>
+                  <div class="box2">
+                    <dt>고객문의</dt>
+                    <dd>고객 서비스</dd>
+                    <dd>자주 묻는 질문</dd>
+                    <dd>고객지원센터</dd>
+                    <dd>배송조회</dd>
+                    <dd>교환환불</dd>
+                    <dd>품질보증</dd>
+                    <dd>제품리콜</dd>
+                    <dd>피드백</dd>
+                    <dd>부품신청</dd>
+                  </div>
+                  <div class="box3">
+                    <dt>쇼핑하기</dt>
+                    <dd>쇼핑하기</dd>
+                    <dd>헤이오더</dd>
+                    <dd>IKEA for Business</dd>
+                    <dd>셀프 플래닝</dd>
+                    <dd>IKEA 모바일 앱</dd>
+                    <dd>제품 사용 팁 / 가이드</dd>
+                    <dd>브로슈어 / 제품 구매 안내</dd>
+                    <dd>결제옵션</dd>
+                    <dd>기프트카드</dd>
+                  </div>
+                  <div class="box4">
+                    <dt>서비스</dt>
+                    <dd>IKEA 서비스</dd>
+                    <dd>배송 서비스</dd>
+                    <dd>조립 서비스</dd>
+                    <dd>설치 서비스</dd>
+                    <dd>주방 서비스</dd>
+                    <dd>구매 상담 서비스</dd>
+                    <dd>인테리어 디자인 서비스</dd>
+                    <dd>바이백 서비스</dd>
+                  </div>
+                  <div class="box5">
+                    <dt>IKEA 이야기</dt>
+                    <dd>브랜드 소개</dd>
+                    <dd>집에서의 생활</dd>
+                    <dd>지속가능한 생활</dd>
+                    <dd>뉴스룸</dd>
+                    <dd>채용정보</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <div class="ft_rt">
+              <ul class="sns_icon">
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+              <div>
+                <p><i class="fa-solid fa-globe"></i>국가 변경</p>
+              </div>
+            </div>
+            <div class="ft_bt_bt">
+              <div class="ft_bt_bt_lt">
+                <dl>
+                  <dd>© Inter IKEA Systems B.V 1999-2024</dd>
+                  <dd>
+                    IKEA 코리아<br />
+                    주소: (우) 14352 경기도 광명시 일직로 17 IKEA광명점<br />
+                    사업자 등록번호: 106-86-82871 사업자정보확인<br />
+                    대표자: 이사벨 푸치 팔렘<br />
+                    통신판매업 신고: 2018-경기광명-0209<br />
+                    고객지원센터: 1670-4532
+                  </dd>
+                </dl>
+              </div>
+              <div class="ft_bt_bt_rt">
+                <dl>
+                  <dd>개인정보처리방침</dd>
+                  <dd>쿠키정책</dd>
+                  <dd>쿠키설정</dd>
+                  <dd>웹사이트 이용약관</dd>
+                  <dd>Responsible disclosure</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
