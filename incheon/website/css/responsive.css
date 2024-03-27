@@ -1,0 +1,155 @@
+body {
+  overflow-x: hidden;
+}
+
+.pc_show {
+  display: block;
+}
+.pc_hide {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .tb_show {
+    display: block;
+  }
+  .tb_hide {
+    display: none;
+  }
+
+  .inner {
+    padding: 0 20px;
+  }
+
+  .service li {
+    width: calc(100% / 6);
+  }
+
+  .info li {
+    width: calc((100% - 80px) / 5);
+  }
+  footer{
+    height: 450px;
+  }
+  .footer1 li{
+    width: calc(100% / 4);
+  }
+
+  .footer1 dt{
+    flex-wrap: nowrap;
+    width: calc((100% - 20px) / 2);
+  }
+
+  .footer2 .inner, .footer3 .inner{
+    flex-direction: column;
+  }
+
+  .footer2 .inner{
+    gap: 40px;
+  }
+  .footer3 .inner{
+    gap: 40px;
+  }
+  
+.main_lt{
+  padding-bottom: 40px;
+}
+.main_rt_bt ul{
+  display: flex;
+  gap:70px;
+}
+.main_rt_bt a{
+  flex-direction: column;
+}
+.main_rt_bt li img:last-child{
+  display: none;
+}
+.new .inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.happy_slide_btn{
+  transform: translateX(-80px);
+}
+.new{
+  padding-top: 40px;
+}
+}
+@media (max-width: 1000px) {
+  .mb_show {
+    display: block;
+  }
+  .mb_hide {
+    display: none;
+  }
+  .service{
+    padding-top: 50px;
+  }
+  .service li {
+    width: calc(100% / 4);
+  }
+
+  .main{
+    padding-top: 150px;
+  }
+  .main .inner {
+    flex-direction: column;
+  }
+  .main_lt {
+    width: calc(100vw - 40px);
+  }
+  .main_rt {
+    width: 100%;
+  }
+  .happy_slide .happy_slide_btn{
+    transform: translateX(340px);
+  }
+  .happy_slide h2{
+    transform: translateX(-340px);
+  }
+  .happy_slide h2 img{
+    padding: 0 20px;
+  }
+  .header3 img{
+    width: 70%;
+  }
+  .header3{
+    height: 0px;
+  }
+
+  .header3 h1 a img{
+    display: none;
+  }
+  .header3 .weather{
+    display: none;
+  }
+.header3 form{
+  display: none;
+}
+
+  .keyword .inner {
+    height: 150px;
+    padding-top: 80px;
+  }
+
+  .new .new_lt{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .every .inner > div {
+    width: 100%;
+    height: 500px;
+  }
+  .footer1 li{
+    width: calc(100% / 3);
+  }
+  footer{
+    height: 580px;
+  }
+  .footer1 dt{
+    flex-wrap: swrap;
+    width: calc((100% - 20px) / 1);
+  }
+}
