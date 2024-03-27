@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <div class="inner">
+                <div class="hd_lt">
+                    <div class="icon_box">
+                        <i class="fa-solid fa-house"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="hd_rt">
+                    <div class="icon_box">
+                        <div class="search_area">
+                            <input class="search_input" placeholder="무엇을 도와드릴까요?" type="text" />
+                            <button class="search_btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                          </div>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="wrap">
+            <div class="inner">
+                <div class="center_box">
+                    <div class="main_box1">
+                        <a href="">
+                            <img src="images/main_img/main_sub.png" alt="">
+                        </a>
+                    </div>
+                    <div class="main_box2">
+                        <a href="">
+                            <img src="images/main_img/main_sub2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="course">
+        <div class="wrap">
+            <div class="inner">
+                <div class="course_lt">
+                    <div class="tit_box">
+                        <strong>지도로 한눈에 보는</strong>
+                        <h2>지역 별 <em>추천 여행코스</em></h2>
+                    </div>
+                    <div class="tab_wrap">
+                        <ul class="tab_menu">
+                          <li class="active" rel="tab1">
+                            <button class="tab_btn">애월·한림</button>
+                          </li>
+                          <li rel="tab2"><button class="tab_btn">제주시내</button></li>
+                          <li rel="tab3"><button class="tab_btn">조천·구좌</button></li>
+                          <li rel="tab4"><button class="tab_btn">성산·우도</button></li>
+                          <li rel="tab5"><button class="tab_btn">서귀포·남원</button></li>
+                          <li rel="tab6"><button class="tab_btn">중문</button></li>
+                        </ul>
+                        <ul class="tab_contents">
+                            <li id="tab1">
+                                <img src="images/main_img/course_img1.png" alt="">
+                                <span>
+                                    <div class="img_sk">
+                                        <img src="images/main_img/Asset 3.png" alt="">
+                                    </div>
+                                    <em>해안도로와 일몰이 멋있는</em>
+                                    <strong>애월 · 한림</strong>
+                                    <p>제주 서부 지역은 해안 도로가 발달해 드라이브하기 좋습니다.</p>
+                                    <p>그중에서도 하귀리에서 애월리로 이어지는 애월 해안 도로가 가장 유명한데요,</p>
+                                    <p>자전거 전용도로와 도보길도 잘 갖추어져 있어 자동차가 없는 여행자도 돌아보기 쉽습니다.</p>
+                                        
+                                    <p>서부 지역은 해가 수평선 너머로 해가 지는 모습이 장관이라 일몰 감상 장소로 인기가 많습니다.</p> 
+                                    <p>협재 해수욕장, 금능 해수욕장, 애월 한담 해안 산책로가 대표적인 명소입니다.</p>
+                                </span>
+                            </li>
+                            <li id="tab2">
+                                <img src="images/main_img/course_img2.png" alt="">
+                                <span>
+                                    <div class="img_sk">
+                                        <img src="images/main_img/Asset 3.png" alt="">
+                                    </div>
+                                    <em>공항과 터미널이 있어 편리한</em>
+                                    <strong>제주시내</strong>
+                                    <p>제주 국제공항과 제주시 버스 터미널이 있어 교통이 매우 편리합니다.</p>
+                                    <p>특히 대중교통을 이용하는 뚜벅이 여행자가 여행하기 편한 곳이며,</p> 
+                                    <p>시내인 만큼 밤늦게까지 운영하는 가게들이 많아 제주의 밤을 즐기고 싶다면 이 지역을 추천합니다.</p> 
+                                    <p>보통 공항을 오갈 때 자투리 시간 정도만 할애하는 경우가 많지만</p>
+                                    <p>시장, 해변, 오름, 맛집 등 다른 지역과 비교해도 절대 빠지지 않습니다.</p>
+                                </span>
+                            </li>
+                            <li id="tab3">
+                                <img src="images/main_img/course_img3.png" alt="">
+                                <span>
+                                    <div class="img_sk">
+                                        <img src="images/main_img/Asset 3.png" alt="">
+                                    </div>
+                                    <em>바다도 보고, 숲도 보고</em>
+                                    <strong>조천 · 구좌</strong>
+                                    <p>제주 동부지역은 아름다운 해수욕장이 많이 있을 뿐만 아니라 해안 도로도 발달해 있습니다.</p>
+                                    <p>제주 국제공항을 출발해서 시계 방향으로 돌면 함덕 해수욕장, 월정리 해변, 세화 해변을 거쳐</p> 
+                                    <p>하도 해수욕장까지 아름다운 해변을 감상하며 달려보세요.</p> 
+                                    <p>내륙 쪽에는 사려니 숲길, 산굼부리, 비자림 등이 모여있어 바다와 숲을 함께 즐기기 좋습니다.</p>
+                                </span>
+                            </li>
+                            <li id="tab4">
+                                <img src="images/main_img/course_img4.png" alt="">
+                                <span>
+                                    <div class="img_sk">
+                                        <img src="images/main_img/Asset 3.png" alt="">
+                                    </div>
+                                    <em>빼어난 자연경관을 자랑하는</em>
+                                    <strong>성산 · 우도</strong>
+                                    <p>성산일출봉은 유네스코 세계자연유산에 등재될 만큼 뛰어난 자연경관을 자랑합니다.</p>
+                                    <p>일출봉을 오르면 8만 평의 넓은 분화구를 볼 수 있는데, 이곳에서 바라보는 일출이 특히 아름다워</p>
+                                    <p>일출봉이라 이름 지어졌습니다.</p> 
+                                    <p>우도는 관광명소는 물론 맛집이 많아 다채롭게 즐길 거리가 다양합니다.</p>
+                                    <p>섬 한 바퀴를 도는데 걸어서 3시간이면 충분하지만, 버스나 바이크를 타고 구경하는 것도 좋습니다.</p>
+                                    
+                                </span>
+                            </li>
+                            <li id="tab5">
+                                <img src="images/main_img/course_img5.png" alt="">
+                                <span>
+                                    <div class="img_sk">
+                                        <img src="images/main_img/Asset 3.png" alt="">
+                                    </div>
+                                    <em>일 년 내내 온화한</em>
+                                    <strong>서귀포 · 남원</strong>
+                                    <p>제주 남부에 위치한 서귀포 지역은 일 년 내내 온화한 날씨를 보입니다. </p>
+                                    <p>한라산이 계절풍을 막아줘 겨울에도 온도가 영하로 내려가는 날이 적습니다.</p> 
+                                    <p>서귀포에서는 천혜의 자연을 감상할 수 있는 포인트가 많습니다.</p> 
+                                    <p>주상절리, 폭포 등 자연의 아름다움을 마음껏 즐길 수 있습니다.</p>
+                                </span>
+                            </li>
+                            <li id="tab6">
+                                <img src="images/main_img/course_img6.png" alt="">
+                                <span>
+                                    <div class="img_sk">
+                                        <img src="images/main_img/Asset 3.png" alt="">
+                                    </div>
+                                    <em>숙박, 관광, 식사를 한 번에</em>
+                                    <strong>중문</strong>
+                                    <p>중문 관광 단지는 1978년 관광 개발을 목적으로 조성된 복합 휴양지입니다.</p> 
+                                    <p>단지 내에는 더 스위트 호텔 제주, 롯데 호텔 제주를 포함해 9개의 숙박시설이 있습니다.</p> 
+                                    <p>또 천제연 폭포, 여미지 식물원 등 다양한 관광지가 들어서 있습니다.</p> 
+                                    <p>단지 안에서만 숙박, 관광, 식사를 한 번에 해결할 수 있어 부모님이나 아이를 동반한 가족여행자가</p>
+                                    <p>많이 찾습니다.</p>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="course_rt">
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <strong>도치돌알파카목장</strong>
+                                    <img src="images/main_img/course_list_img.jpg" alt="">
+                                    <span>
+                                        <em>제주 제주시 특별자치도<br>애월읍 납읍리 98-1</em>
+                                        <p>매일  오전 10:00 - 오후 4:00<br>
+                                        연락처 : 0507-1361-6694</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>9.81파크</strong>
+                                        <img src="images/main_img/course_list_img2.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 천덕로 880-24</em>
+                                            <p>매일 오전 09:00 - 오후 18:20<br>
+                                            연락처 : 1833-9810</p>
+                                        </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>아르떼 뮤지엄</strong>
+                                        <img src="images/main_img/course_list_img3.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 어림비로 478</em>
+                                            <p>매일 오전 10:00 - 오후 20:00<br>
+                                            연락처 : 1899-5008</p>
+                                        </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>달달미깡감귤밭</strong>
+                                        <img src="images/main_img/course_list_img4.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 광령리 3899-5</em>
+                                            <p>매일 오전 10:00 - 오후 17:00<br>
+                                            연락처 : 0507-1348-3678</p>
+                                        </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>도치돌알파카목장</strong>
+                                        <img src="images/main_img/course_list_img.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 납읍리 98-1</em>
+                                            <p>매일  오전 10:00 - 오후 4:00<br>
+                                            연락처 : 0507-1361-6694</p>
+                                        </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>9.81파크</strong>
+                                        <img src="images/main_img/course_list_img2.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 천덕로 880-24</em>
+                                            <p>매일 오전 09:00 - 오후 18:20<br>
+                                            연락처 : 1833-9810</p>
+                                        </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>아르떼 뮤지엄</strong>
+                                        <img src="images/main_img/course_list_img3.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 어림비로 478</em>
+                                            <p>매일 오전 10:00 - 오후 20:00<br>
+                                            연락처 : 1899-5008</p>
+                                        </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                        <strong>달달미깡감귤밭</strong>
+                                        <img src="images/main_img/course_list_img4.jpg" alt="">
+                                        <span>
+                                            <em>제주 제주시 특별자치도<br>애월읍 광령리 3899-5</em>
+                                            <p>매일 오전 10:00 - 오후 17:00<br>
+                                            연락처 : 0507-1348-3678</p>
+                                        </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="walking_map">
+        <div class="wrap">
+            <div class="inner">
+                <div class="tit_box">
+                    <h2>제주 올레길 <em>코스 별 정보</em></h2>
+                </div>
+                <div class="walking_map_top">
+                    <div class="tab_wrap">
+                        <ul class="tab_menu">
+                        <li class="active" rel="tab1">
+                            <button class="tab_btn">초보자 추천</button>
+                        </li>
+                        <li rel="tab2"><button class="tab_btn">난이도'하'</button></li>
+                        <li rel="tab3"><button class="tab_btn">난이도'중'</button></li>
+                        <li rel="tab4"><button class="tab_btn">난이도'상'</button></li>
+                        </ul>
+                        <ul class="tab_contents">
+                            <li id="tab1">
+                                <img src="images/main_img/walking_map6.png" alt="">
+                                <span>
+                                    <em>초심자에게 딱,</em>
+                                    <strong>올레길 '6코스'</strong>
+                                    <p>코스 : 쇠소깍다리 - 쇠소깍안내 센터 - 제지기 오름 입구 - 구두미 포구 - <br>검은여 쉼터 - 소라의 성 - 서귀포 매일올레시장 입구 - 제주올레여행자센터</p>
+                                    <nav>
+                                        <p>총 거리 : 11km, 소요시간 :  3 ~ 4시간, 난이도 : 하</p>
+                                    </nav>
+                                </span>
+                            </li>
+                            <li id="tab2">
+                                <img src="images/main_img/walking_map10-1.png" alt="">
+                                <span>
+                                    <em>연인과 함께라면,</em>
+                                    <strong>올레길 '10-1코스'</strong>
+                                    <p>코스 : 상동마을 할마당 - 큰왕돌 - 냇골챙이 앞 - 가파초등학교 - 가파도 전화국 - 개엄주리코지 - <br>큰웅짓물 - 가파 마을제단 - 부근덕 - 하동포구</p>
+                                    <nav>
+                                        <p>총 거리 : 4.3km, 소요시간 :  1 ~ 2시간, 난이도 : 최하</p>
+                                    </nav>
+                                </span>
+                            </li>
+                            <li id="tab3">
+                                <img src="images/main_img/walking_map1.png" alt="">
+                                <span>
+                                    <em>가장 아름다운 풍경,</em>
+                                    <strong>올레길 '1코스'</strong>
+                                    <p>코스 : 시흥초등학교 - 제주 올레 안내소 - 말미오름 입구 - 말미오름 정상 - 종달초등학교 - 종달리 옛 소금밭 - <br>목화 휴게소 - 성산갑문 - 성산초등학교 - 수마포 - 광치기 해변</p>
+                                    <nav>
+                                        <p>총 거리 : 15.6km, 소요시간 :  4 ~ 5시간, 난이도 : 중상</p>
+                                    </nav>
+                                </span>
+                            </li>
+                            <li id="tab4">
+                                <img src="images/main_img/walking_map7-1.png" alt="">
+                                <span>
+                                    <em>제주 풍경을 내려다보는,</em>
+                                    <strong>올레길 '7-1코스'</strong>
+                                    <p>코스 : 월드컵 경기장 - 대신중학교 - 월산동 입구 - 엉또폭포 - 고근산 정상 - 제남 아동복지센터 - <br>서호초등학교 - 봉림사 - 하논분화구 - 삼매봉 입구 삼거리 - 외돌개</p>
+                                    <nav>
+                                        <p>총 거리 : 15.1km, 소요시간 :  4 ~ 5시간, 난이도 : 상</p>
+                                    </nav>
+                                </span>
+                            </li>
+                    
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="img_2">
+                    <nav>
+                        <img class="ig_1" src="images/main_img/Asset 4.png" alt="">
+                        <img class="ig_2" src="images/main_img/Asset 4.png" alt="">
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="culture">
+        <div class="wrap">
+            <div class="inner">
+                <div class="culture_top">
+                    <div class="tit_box">
+                        <strong>멀리 갈 필요 없이 한 곳에서 즐기자!</strong>
+                        <h2>순위 별 <em>복합문화공간</em></h2>
+                    </div>
+                    
+                <div class="culture_bt">
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="best" ><img src="images/main_img/best.png" alt=""></div>
+                                <em class="nmb">01</em>
+                                <a href="">
+                                    <img src="images/main_img/culture_img1.jpg" alt="">
+                                    <span>
+                                        <strong>리듬앤브루스</strong>
+                                        <em>제주시 특별자치도, 무근성7길 11</em>
+                                        <p>070-7785-9160</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <em class="nmb">02</em>
+                                <a href="">
+                                    <img src="images/main_img/culture_img2.jpg" alt="">
+                                    <span>
+                                        <strong>스물다섯</strong>
+                                        <em>제주시 다랑곶6길 19</em>
+                                        <p>064-748-3334</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="best" ><img src="images/main_img/best.png" alt=""></div>
+                                <em class="nmb">03</em>
+                                <a href="">
+                                    <img src="images/main_img/culture_img3.jpg" alt="">
+                                    <span>
+                                        <strong>한라서적타운</strong>
+                                        <em>제주 제주시 동광로16길 5 한라서적타운</em>
+                                        <p>0507-1480-9988</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="best" ><img src="images/main_img/best.png" alt=""></div>
+                                <em class="nmb">04</em>
+                                <a href="">
+                                    <img src="images/main_img/culture_img1.jpg" alt="">
+                                    <span>
+                                        <strong>리듬앤브루스</strong>
+                                        <em>제주시 특별자치도, 무근성7길 11</em>
+                                        <p>070-7785-9160</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <em class="nmb">05</em>
+                                <a href="">
+                                    <img src="images/main_img/culture_img2.jpg" alt="">
+                                    <span>
+                                        <strong>스물다섯</strong>
+                                        <em>제주시 다랑곶6길 19</em>
+                                        <p>064-748-3334</p>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <em class="nmb">06</em>
+                                <a href="">
+                                    <img src="images/main_img/culture_img3.jpg" alt="">
+                                    <span>
+                                        <strong>한라서적타운</strong>
+                                        <em>제주 제주시 동광로16길 5 한라서적타운</em>
+                                        <p>0507-1480-9988</p>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                </div>
+                <div class="culture_bt"></div>
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="wrap">
+            <div class="inner">
+                <div class="experience_top">
+                    <div class="tit_box">
+                        <strong>제주도에서만 할 수 있는 특별한 추억남기기</strong>
+                        <h2><em>인기</em> 프로젝트</h2>
+                    </div>
+                    <div class="experience_md">
+                        <div class="experience_md_lt">
+                            <img src="images/main_img/experience_img1.png" alt="">
+                        </div>
+                        <div class="experience_md_rt_box">
+                            <div class="experience_md_rt_top">
+                                <em>관람, 체험</em>
+                                <span>
+                                    <strong>낭만농장 귤밭76번지</strong>
+                                    <button><a href="">예매하기</a></button>
+                                </span>
+                            </div>
+                            <div class="experience_md_rt_md">
+                                <span>
+                                    <p>제주 제주시 화북이동 5495-2</p>
+                                    <p>매일 10 : 00 - 17 : 00 - 16 : 30 입장마감</p>
+                                </span>
+                                <p>★ 4.6</p>
+                            </div>
+                            <div class="experience_md_rt_bt">
+                                <nav>
+                                    <span>
+                                        <p>입장료</p>
+                                        <p>2,000원</p>
+                                    </span>
+                                    <span>
+                                        <p>귤밭76 감귤체험</p>
+                                        <p>16,000원</p>
+                                    </span>
+                                    <span>
+                                        <p>귤밭76 조생감귤 10kg 대과</p>
+                                        <p>23,000원</p>
+                                    </span>
+                                    <span>
+                                        <p>귤밭76 황금향 3kg</p>
+                                        <p>25,000원</p>
+                                    </span>
+                                    <span>
+                                        <p>귤밭76 조생감귤 10kg 선물용</p>
+                                        <p>28,000원</p>
+                                    </span>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience_bt">
+                    <button><a href="">더 보러가기</a></button>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img1.png" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img2.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img3.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img4.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img1.png" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img2.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img3.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="images/main_img/experience_img4.jpg" alt=""></a>
+                        </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="back">
+            <div class="ft_top">
+                <div class="ft_top_lt">
+                    <dl>
+                        <div>
+                            <dt>고객 문의</dt>
+                            <dd>고객센터</dd>
+                            <dd>서비스 보장제</dd>
+                            <dd>서비스 상세내용</dd>
+                            <dd>웹사이트 피드백</dd>
+                            <div class="icon_box">
+                                <img src="images/main_img/sns_icon1.png" alt="">
+                                <img src="images/main_img/sns_icon2.png" alt="">
+                                <img src="images/main_img/sns_icon3.png" alt="">
+                                <img src="images/main_img/sns_icon4.png" alt="">
+                                <img src="images/main_img/sns_icon5.png" alt="">
+                                <img src="images/main_img/sns_icon6.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <dt>고객 문의</dt>
+                            <dd>웹사이트 소개</dd>
+                            <dd>뉴스룸</dd>
+                            <dd>채용</dd>
+                            <dd>이용약관</dd>
+                            <dd>개인정보 처리방침</dd>
+                        </div>
+                        <div>
+                            <dt>고객 문의</dt>
+                            <dd>IR</dd>
+                            <dd>리워드</dd>
+                            <dd>파트너제휴 플랫폼</dd>
+                            <dd>숙소등록</dd>
+                            <dd>모든숙소</dd>
+                            <dd>프로젝트 상품 제휴</dd>
+                            <dd>보안</dd>
+                        </div>
+                        <div>
+                            <dt>결제방법</dt>
+                            <dd>
+                                <img src="images/main_img/pay_img1.png" alt="">
+                                <img src="images/main_img/pay_img2.png" alt="">
+                                <img src="images/main_img/pay_img3.png" alt="">
+                                <img src="images/main_img/pay_img4.png" alt="">
+                                <img src="images/main_img/pay_img5.png" alt="">
+                            </dd>
+                            <dd>
+                                <img src="images/main_img/pay_img6.png" alt="">
+                                <img src="images/main_img/pay_img7.png" alt="">
+                                <img src="images/main_img/pay_img8.png" alt="">
+                                <img src="images/main_img/pay_img9.png" alt="">
+                            </dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="ft_top_rt"></div>
+            </div>
+            <div class="ft_bt">
+                <p> Copyright © 2024 Travel Singapore Pte. Ltd. All rights reserved.</p>
+                <p>사이트 운영자:Travel Singapore Pte. Ltd. (라이선스 번호 02943, 대표 오이치통)</p> 
+                <p>No. #29-01, 30 Raffles Place, Singapore 048622
+                고객센터: 한국 1666 0060 해외 +82 2 6917 8777</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
