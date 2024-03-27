@@ -1,0 +1,267 @@
+:root {
+    font-size: 10px;
+    --back-color: #f8faf0;
+    --light-gray: #e5e2e0;
+    --point-gray: #ff6000;
+    --main-color: #75675c;
+    --beige-color: #ab9b7f;
+    --brown-color: #2c1810;
+    --yellow-color: #f9b234;
+  }
+
+/* .story */
+.sub_wrap{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 177px;
+    box-sizing: border-box;
+}
+
+.sub_wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.sub_wrap .inner{
+    width: 1400px;
+    position: relative;
+}
+.story .youtube{
+    position: absolute;
+    top: 740px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* store_search */
+
+.map{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.store_search{
+    width: 264px;
+    height: 721px;
+    background-color: white;
+    position: absolute;
+    top: 195px;
+    left: 2%;
+    border-radius: 10px;
+
+}
+.store_search img{
+    width: 264px;
+    height: 721px;
+}
+
+  /* store_service */
+
+  .store_service{
+    color: var(--brown-color);
+  }
+
+  .store_service img {
+    width: auto;
+    height: auto;
+  }
+  
+  .store_service .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .store_service article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+  }
+
+  .store_service .back{
+    border-bottom: 1px solid var(--yellow-color);
+  }
+  
+  .store_service ul img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .store_service ul{
+    display: flex;
+    gap: 50px;
+  }
+  .store_service li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-size: 1.2rem;
+
+  }
+
+  .store_service article div{
+    display: flex;
+    gap: 70px;
+  }
+
+  .store_service article div nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .store_service article div nav p{
+    font-size: 1.2rem;
+  }
+  .store_service .call{
+    font-size: 1.2rem;
+    text-align: center;
+    transform: translateY(-100px);
+  }
+  .store_service article div nav strong{
+    font-size: 2rem;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+
+  .store_service article div nav img{
+    transform: translateY(-100px);
+  }
+
+  .always{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    transform: translateY(-20px);
+  }
+  
+  .order div{
+    display: flex;
+    flex-direction: column;
+  }
+  .order .tit{
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    width: 170px;
+    height: 17px;
+  }
+
+  .order .list{
+    padding-top: 30px;
+  }
+
+  .order .call{
+    padding-top: 80px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .call{
+    color: var(--main-color);
+  }
+
+  .order {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-left:50px;
+    padding-right:50px;
+    transform: translateY(-20px);
+    box-sizing: border-box;
+  }
+
+
+/* happy_service */
+
+  .happyorder h2{
+    font-size: 4rem;
+    font-weight: lighter;
+    transform: translateY(80px);
+  }
+  .happyorder img {
+    width: auto;
+    height: auto;
+  }
+  
+  .happyorder .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .happyorder article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+  }
+  
+  .happyorder article img:nth-child(3) {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    width: 200px;
+    transform: translateX(-50%);
+  }
+
+  .happyorder a img{
+    transform: translateY(-100px);
+  }
+
+  /* happymarket */
+
+  .happymarket h2{
+    font-size: 4rem;
+    font-weight: lighter;
+    transform: translateY(80px);
+  }
+  .happymarket img {
+    width: auto;
+    height: auto;
+  }
+  
+  .happymarket .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .happymarket article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+  }
+
+  .happymarket .menu{
+    padding-bottom: 100px;
+    border-top: 1px solid var(--yellow-color);
+    padding-top: 100px;
+  }
+
+  .happymarket a img{
+    transform: translateY(-100px);
+  }
+
+  .happymarket_2 ul li a{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .happymarket_2 ul{
+    display: flex;
+    gap: 300px;
+    padding-top: 100px;
+  }
