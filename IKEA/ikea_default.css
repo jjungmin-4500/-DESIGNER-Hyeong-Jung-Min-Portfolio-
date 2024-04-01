@@ -1,0 +1,165 @@
+/*.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.black-han sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+.nanum-gothic-regular {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+.tab_menu {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .section_4 .tab_menu li.active .tab_btn {
+    background-color: rgb(29, 81, 63);
+    color: #fff;
+    border: transparent;
+  }
+  .section_4 .tab_menu li .tab_btn {
+    padding: 8px 15px;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    margin: 20px 0;
+    font-size: 1.5rem;
+  }
+
+  @font-face {
+    font-family: "JalnanGothic";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SUITE-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+      format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+  
+  :root {
+    font-size: 10px;
+    --main-bg-color: rgb(29, 81, 63);
+    --main-ft-color: rgb(218, 215, 205);
+  }
+  
+  h1 {
+    font-family: "JalnanGothic";
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-family: "JalnanGothic";
+    font-size: 4rem;
+  }
+  strong {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .logo img {
+    width: 100px;
+    position: absolute;
+    right: 150px;
+    top: 600px;
+  }
+  
+  header {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  
+  header .title h1 {
+    font-family: "JalnanGothic";
+    font-size: 2.6rem;
+    color: var(--main-bg-color);
+    width: 800px;
+    position: absolute;
+    left: 100px;
+  }
+  
+  .title h1::after {
+    content: "";
+    display: block;
+    width: 560px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(218, 215, 205);
+    position: absolute;
+    top: 15px;
+    z-index: -1;
+  }
+  
+  nav ul {
+    font-family: "JalnanGothic";
+    font-size: 20px;
+    color: rgb(29, 81, 63);
+    display: flex;
+    gap: 50px;
+  }
+  
+  nav ul::after {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 2px;
+    background-color: rgb(29, 81, 63);
+    position: absolute;
+    top: 80px;
+    right: 70px;
+  }
+  
+  .Home:hover {
+    color: rgb(182, 175, 152);
+  }
+  .About:hover {
+    color: rgb(182, 175, 152);
+  }
+  .Portfolio:hover {
+    color: rgb(182, 175, 152);
+  }
+  .Etc:hover {
+    color: rgb(182, 175, 152);
+  }
+  
