@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* .nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* .nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .banner */
+.banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+.banner .txt_box{
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 50%;
+  transform: translate( -50%, -30%);
+}
+
+.banner .txt_box em{
+  font-size: 1.5rem;
+  font-family: "Nanum Myeongjo", serif;
+  padding-bottom: 10px;
+}
+.banner .txt_box strong{
+  font-size: 2.5rem;
+  font-family: "Nanum Myeongjo", serif;
+  padding-bottom: 30px;
+}
+.banner .txt_box p{
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 25px;
+}
+
+/* .tab_list */
+.tab_list .inner{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.tab_list .inner .all{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 300px;
+}
+.tab_list .inner h2{
+  font-size: 2.5rem;
+  font-family: "Nanum Myeongjo", serif;
+}
+.main{
+  display: flex;
+  justify-content: left;
+  padding-top: 20px;
+  gap: 30px;
+}
+.tab_list{
+  width: 100%;
+  position: relative;
+}
+.tab_menu>ul{
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 150px;
+}
+
+.tab_menu>ul i{
+  font-size: 0.7rem;
+  padding-left: 10px;
+}
+.tab_menu>ul>li>ul{
+  display: none;
+  line-height: 25px;
+  padding-top: 10px;
+  color: gray;
+  font-weight: normal;
+}
+.tab_menu>ul>li:hover{
+  color: gray;
+}
+.tab_menu>ul>li:hover>ul{
+  display: block;
+}
+.tab_menu>ul>li>ul>li:hover{
+  color: black;
+  font-weight: bold;
+}
+.tab_menu .tab_top{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tab_menu .tab_top li:hover{
+  color: gray;
+}
+.tab_menu .tab_top,
+.tab_menu .tab_bt {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.tab_menu .tab_bt li:hover{
+  color: gray;
+}
+.tab_menu .tab_bt li>ul>li:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.tab_menu .tab_bt .pay_list p{
+  color: black;
+  font-weight: bold;
+}
+.tab_menu .tab_bt strong{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.tab_menu .tab_bt li>ul{
+  display: none;
+  line-height: 25px;
+  padding-top: 10px;
+  color: gray;
+  font-weight: normal;
+}
+.tab_menu .tab_bt>li:hover>ul{
+  display: block;
+}
+.tab_menu .tab_bt input[type=range] {
+	width:100%;
+	-webkit-appearance: none;
+	background: transparent;
+  background-color: lightgray;
+  border-radius: 50px;
+  accent-color:white;
+  outline: 1px solid rgb(185, 185, 185);
+}
+
+.tab_menu .tab_bt .pay_list div{
+font-size: 0.8rem;
+}
+
+.tab_menu .tab_bt button{
+  border: transparent;
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.tab_menu .tab_bt button:hover{
+  background-color: rgb(179, 179, 179);
+}
+
+
+
+.list_box  {
+  padding-bottom: 150px;
+}
+.list_box  ul{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.list_box  li{
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+  transition: all 0.3s;
+  border: 1px solid lightgray;
+  position: relative;
+  transition: all 0.2s;
+}
+.list_box  li:hover{
+  transform: scale(1.15);
+}
+.list_box  li:hover{
+  box-shadow: 0 0 20px rgba(27, 27, 27, 0.397);
+}
+
+.list_box  .box_top span i{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.2rem;
+  color: rgb(148, 148, 148);
+  transition: all 0.3s;
+}
+.list_box  .box_top span i:hover{
+  color: rgb(196, 57, 57);
+}
+.list_box  .box_top img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: -10px;
+  border-radius: 10px 10px 0 0;
+}
+.list_box  .box_top{
+  width: 210px;
+  height: 266px;
+}
+.list_box  .box_bt span{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+}
+/* // */
+
+.name{
+  z-index: 2;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 15px;
+}
+.sale{
+  z-index: 2;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(243, 186, 0);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.pay{
+  z-index: 2;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+.box_bt span .pay:nth-child(4){
+  padding-top: 10px;
+}
+.box_bt span .review{
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-top: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.box_bt span .review em{
+  color: rgb(179, 179, 179);
+}
+
+.none_box{
+  display: none;
+  position: absolute;
+  left: -1px;
+  bottom: -38px;
+}
+
+.list_box li:hover{
+  border-radius: 10px 10px 0 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  z-index: 20;
+}
+.list_box li:hover .none_box{
+  display: block;
+}
+.hover_box{
+  display: flex;
+  width: 212px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 0 0 10px 10px ;
+  
+}
+
+.hover_box button{
+  border: transparent;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+  transition: all 0.2s;
+}
+.hover_box button:hover{
+  color: rgb(196, 57, 57);
+}

@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/c2a8ed99bd.js"></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+</head>
+<body>
+    <aside>
+        <div class="flex">
+          <div class="inner">
+            <div class="top_banner_content">
+              <div class="content">
+                <img src="image/aside.png" alt="">
+                <img src="image/aside2.png" alt="">
+              </div>
+            </div>
+            <div>
+              <button class="top_banner_btn"><i class="fa-solid fa-sort-down"></i> DIPTYQUE</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- header -->
+    <div id="main">
+        <header>
+            <div class="wrap">
+                <div class="hd_top">
+                    <div class="hd_top_lt">
+                        <ul>
+                            <li><a href="">로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                            <li>
+                                <i class="fa-solid fa-globe"></i>
+                                <form action="">
+                                  <select name="" id="">
+                                    <option value="">Language</option>
+                                    <option value="">한국어</option>
+                                    <option value="">English</option>
+                                    <option value="">日本語</option>
+                                    <option value="">中国人</option>
+                                  </select>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo">
+                        <a href="../index.html"><img src="image/dq_logo.png" alt=""></a>
+                    </div>
+                    <div class="hd_top_rt">
+                        <ul>
+                            <li><button class="search_up"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                            <li><button class="log_up"><i class="fa-solid fa-user"></i></button></li>
+                            <li><button class="shopping_up"><i class="fa-solid fa-bag-shopping"></i></button></li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="res_btn">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+                </span>
+                <div class="menu">
+                <ul>
+                    <li>
+                    <a href="#">NEW & TRENDING &nbsp;<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#"><strong>딥티크 파리지앵 카페 </strong><em>리미티드 에디션</em></a></li>
+                        <li><a href="#">이달의 캔들 : <strong>플뢰르 드 세리시에</strong></a></li>
+                        <li><a href="#"><strong>도손 컬렉션 </strong><em>리미티드 에디션</em></a></li>
+                        <li><a href="#"><strong>봄향기 </strong><em>New</em></a></li>
+                    </ul>
+                    </li>
+                    <li>
+                    <a href="javascript:void(0);"
+                        >FRAGRANCES &nbsp;<i class="fas fa-caret-down"></i
+                    ></a>
+                    <ul>
+                        <li><a href="#">Best sellers</a></li>
+                        <li><a href="#"><strong>오 드 향수</strong></a></li>
+                        <li><a href="#"><strong>오드뚜왈렛</strong></a></li>
+                        <li><a href="#"><strong>고체 향수</strong></a></li>
+                        <li><a href="#"><strong>헤어 미스트</strong></a></li>
+                    </ul>
+                    </li>
+                    <li>
+                    <a href="#">CANDLES & HOME &nbsp;<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#"><strong>딥티크 파리지앵 카페 </strong><em>리미티드 에디션</em></a></li>
+                        <li><a href="#"><strong>이달의 촛불</strong></a></li>
+                        <li><a href="#"><strong>봄향기 </strong><em>New</em></a></li>
+                        <li><a href="#">Best sellers</a></li>
+                        <li><a href="#"><strong>클래식 양초</strong></a></li>
+                        <li><a href="#"><strong>큰/작은 양초</strong></a></li>
+                        <li><a href="#"><strong>리필용 양초</strong></a></li>
+                        <li><a href="#"><strong>테이퍼 양초</strong></a></li>
+                        <li><a href="#"><strong>부속품</strong></a></li>
+                    </ul>
+                    </li>
+                    <li>
+                    <a href="#">BATH & BODY &nbsp;<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Best sellers</a></li>
+                        <li><a href="#"><strong>Hand</strong></a></li>
+                        <li><a href="#"><strong>body</strong></a></li>
+                        <li><a href="#"><strong>여행키트</strong></a></li>
+                        <li><a href="#"><strong>리필</strong></a></li>
+                    </ul>
+                    </li>
+                    <li>
+                    <a href="#">HOME DECOR &nbsp;<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#"><strong>뷰티 액세서리 </strong><em>New</em></a></li>
+                        <li><a href="#">Best sellers</a></li>
+                        <li><a href="#"><strong>캔들홀더</strong></a></li>
+                        <li><a href="#"><strong>촛대</strong></a></li>
+                        <li><a href="#"><strong>뚜껑 / 스너퍼</strong></a></li>
+                        <li><a href="#"><strong>스탠드</strong></a></li>
+                        <li><a href="#"><strong>부속품</strong></a></li>
+                    </ul>
+                    </li>
+                    <li>
+                    <a href="#">ABOUT DIPTYQUE &nbsp;<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#"><strong>딥티크 소개</strong></a></li>
+                        <li><a href="#"><strong>딥티크 약속</strong></a></li>
+                        <li><a href="#"><strong>딥티크의 노력</strong></a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <section class="banner">
+        <div class="wrap">
+            <div class="inner">
+                <img src="image/subpage_banner2.png" alt="">
+                <div class="txt_box">
+                    <em>파리의 퍼퓨머 & 아티스트, 딥티크</em>
+                    <strong>FRAGRANCES</strong>
+                    <p>
+                        딥티크에서 향수는 여행을 시작하라는 초대장입니다.<br> 
+                        첫 음부터 우리의 상상력과 감각이 깨어나는 여정입니다.<br> 
+                        향수와 향수 제스처도 예상치 못한 향과 성분을 발견하면서 여러분에게 그들의 현학을 따르라고 손짓합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tab_list">
+        <div class="wrap">
+            <div class="inner">
+                <div class="all">
+                    <h2>ALL FRAGRANCES</h2>
+                <nav>
+                    <form action="">
+                        <select name="" id="">
+                        <option value="">인기상품순</option>
+                        <option value="">신상품순</option>
+                        <option value="">리뷰순</option>
+                        <option value="">판매량순</option>
+                        <option value="">낮은가격순</option>
+                        <option value="">높은가격순</option>
+                        <option value="">인기찜순</option>
+                        </select>
+                    </form>
+                </nav>
+                </div>
+                <div class="main">
+                    <div class="tab_menu">
+                        <ul>
+                            <li>
+                            <a href="#">전체 </a>
+                            </li>
+                            <li>
+                            <a href="javascript:void(0);"
+                                >향수 <i class="fa-solid fa-plus"></i></a>
+                            <ul>
+                                <li><a href="#">Best sellers</a></li>
+                                <li><a href="#">오 드 향수</a></li>
+                                <li><a href="#">오드뚜왈렛</a></li>
+                                <li><a href="#">고체 향수</a></li>
+                            </ul>
+                            </li>
+                            <li>
+                            <a href="#">바디케어 <i class="fa-solid fa-plus"></i></a>
+                            <ul>
+                                <li><a href="#">워시 / 스크럽</a></li>
+                                <li><a href="#">로션 / 크림 / 오일</a></li>
+                                <li><a href="#">핸드 / 풋케어</a></li>
+                            </ul>
+                            </li>
+                            <li>
+                            <a href="#">헤어케어 <i class="fa-solid fa-plus"></i></a>
+                            <ul>
+                                <li><a href="#">Best sellers</a></li>
+                                <li><a href="#">에센스 / 오일 / 미스트</a></li>
+                            </ul>
+                            </li>
+                            <li>
+                            <a href="#">홈 프래그런스 <i class="fa-solid fa-plus"></i></a>
+                            <ul>
+                                <li><a href="#">캔들</a></li>
+                                <li><a href="#">디퓨저</a></li>
+                                <li><a href="#">방향제</a></li>
+                                <li><a href="#">룸스프레이</a></li>
+                            </ul>
+                            </li>
+                            <li>
+                            <a href="#">라이프케어 <i class="fa-solid fa-plus"></i></a>
+                            <ul>
+                                <li><a href="#">기타</a></li>
+                            </ul>
+                            </li>
+                            <ul class="tab_top">
+                                <li><a href="#"><em>NEW</em>딥티크 파리지앵 카페</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Store</a></li>
+                                <li><a href="#">가로수길 플래그십 스토어</a></li>
+                            </ul>
+                            <ul class="tab_bt">
+                                <li><a href="#"><strong>필터</strong></a></li>
+                                <li>
+                                    <a href="#">할인 / 혜택<i class="fa-solid fa-plus"></i></a>
+                                    <ul>
+                                        <li><a href="#">상품쿠폰</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pay_list">
+                                    <a href="#">가격<i class="fa-solid fa-plus"></i></a>
+                                    <ul>
+                                        <li>
+                                            <form>
+                                                <div>
+                                                    <label> <p>최소 : </p> </label>
+                                                    <input type="range" name="points" min="62700" max="303050" step="1000" value="0" oninput="document.getElementById('value1').innerHTML=this.value;">
+                                                    <span id="value1"></span>
+                                                    <span>원</span>
+                                                </div>
+                                                
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <form>
+                                                <div>
+                                                    <label> <p>최대 : </p> </label>
+                                                    <input type="range" name="points" min="62700" max="303050" step="1000"  value="0" oninput="document.getElementById('value2').innerHTML=this.value;">
+                                                    <span id="value2"></span>
+                                                    <span>원</span>
+                                                </div>
+                                                <button><a href="">적용</a></button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+                        
+                    </div>
+                    <div class="list_box">
+                        <ul>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img1.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 플레르 드 뽀 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(3543)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img2.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 오르페옹 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(1761)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img3.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 필로시코스 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(178)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img4.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 오 데 썽 100ml</strong>
+                                        <p class="sale">5% <em class="pay">228,950원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(1764)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img5.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 탐 다오 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(215)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img6.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 롬브르 단 로 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(1993)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img7.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 오 데 썽 50ml</strong>
+                                        <p class="sale">5% <em class="pay">167,200원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(967)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img8.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 필로시코스 100ml</strong>
+                                        <p class="sale">5% <em class="pay">228,950원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(419)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img9.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 오 로즈 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(800)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img10.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 오 로즈 100ml</strong>
+                                        <p class="sale">5% <em class="pay">228,950원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(857)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img11.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 오 로즈 50ml</strong>
+                                        <p class="sale">5% <em class="pay">167,200원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(470)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img12.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 도손 50ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(537)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img13.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 탐 다오 100ml</strong>
+                                        <p class="sale">5% <em class="pay">228,950원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(475)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img14.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 로 파피에 100ml</strong>
+                                        <p class="sale">5% <em class="pay">228,950원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(155)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img15.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 필로시코스 50ml</strong>
+                                        <p class="sale">5% <em class="pay">167,200원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(3543)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img16.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">리미티드 에디션 오 드 퍼퓸 도 손 75ml</strong>
+                                        <p class="sale">5% <em class="pay">279,000원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(75)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img17.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 오 드 민떼 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(207)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img18.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 롬브르 단 로 100ml</strong>
+                                        <p class="sale">5% <em class="pay">228,950원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(767)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img19.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 뚜왈렛 디스커버리 세트 5종</strong>
+                                        <p class="sale">5% <em class="pay">179,550원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(725)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <div class="box_top">
+                                    <div><img src="image/perfume_img20.jpg" alt=""></div>
+                                    <span><i class="fa-solid fa-heart"></i></span>
+                                </div>
+                                <div class="box_bt">
+                                    <span>
+                                        <strong class="name">오 드 퍼퓸 뗌 포 75ml</strong>
+                                        <p class="sale">5% <em class="pay">265,050원</em></p>
+                                        <p class="review"><i class="fa-solid fa-star"></i> 4.9 <em>(336)</em></p>
+                                    </span>
+                                </div>
+                                <div class="none_box">
+                                    <div class="hover_box">
+                                        <span>
+                                            <button><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                                            <button><a href=""><i class="fa-solid fa-cart-shopping"></i> 장바구니</a></button>
+                                            <button><a href=""><i class="fa-regular fa-heart"></i> 구매하기</a></button>
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- mouse -->
+    <section class="mouse">
+        <ul>
+          <li><a href=""><img src="image/mouse (1).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (2).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (3).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (4).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (5).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (6).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (7).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (8).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (9).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (10).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (1).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (2).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (3).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (4).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (5).png" alt=""></a></li>
+          <li><a href=""><img src="image/mouse (6).png" alt=""></a></li>
+        </ul>
+      </section>
+
+      <!-- footer -->
+    <footer>
+        <div class="wrap">
+            <div class="inner">
+                <div class="ft_top">
+                    <dl>
+                        <dt>(유료) 1644-4490</dt>
+                        <dt>평일: 09:00 ~ 18:00</dt>
+                        <dd><a href="">고객센터</a></dd>
+                        <dd><a href="">공지사항</a></dd>
+                        <dd><a href="">카톡상담</a></dd>
+                        <dd><a href="">ARS</a></dd>
+                    </dl>
+                </div>
+                <div class="ft_bt">
+                    <div class="ft_bt_inner">
+                        <div class="ft_bt_top">
+                            <div class="ft_bt_top_lt">
+                                <div class="ft_bt1">
+                                    <ul>
+                                        <li><a href="">ABOUT</a></li>
+                                        <li><a href="">회사소개</a></li>
+                                        <li><a href="">고객서비스</a></li>
+                                        <li><a href="">배송 및 반품</a></li>
+                                        <li><a href="">개인정보처리방침</a></li>
+                                        <li><a href="">이용약관</a></li>
+                                    </ul>
+                                </div>
+                                <div class="ft_bt2">
+                                    <dl>
+                                        <dt>(주)신세계인터내셔날</dt>
+                                        <dl>서울특별시 강남구 도산대로 449 (청담동)</dl>
+                                        <dt>대표이사 : 윌리엄김</dt>
+                                        <dt>사업자등록번호 : 201-81-53657</dt>
+                                    </dl>
+                                </div>
+                                <div class="ft_bt3">
+                                    <dl>
+                                        <dt>통신판매업 신고번호 : 강남-13797</dt>
+                                        <dt>개인정보보호책임자 : 임홍철</dt>
+                                        <dt>호스팅사업자 : ㈜신세계아이앤씨</dt>
+                                        <dt>고객센터(유료) : 1644-4490</dt>
+                                        <dt>이메일 : siv_cs@sikorea.co.kr</dt> 
+                                    </dl>
+                                </div>
+                                <div class="ft_bt4">
+                                    <dl>
+                                        <dd><a href="">사업자 정보 확인 <i class="fa-solid fa-caret-right"></i></a></dd>
+                                        <dd><a href="">에스크로 서비스 가입확인 <i class="fa-solid fa-caret-right"></i></a></dd>
+                                    </dl>
+                                </div>
+                                <div class="ft_bt5">
+                                    <p>Ⓒ 2020 SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED</p>
+                                </div>
+                            </div>
+                            <div class="ft_bt_top_rt">
+                                <img src="image/footer_logo.png" alt="">
+                            </div>
+                            
+                        </div>
+                        <div class="ft_bt_bt">
+                            <img src="image/ft_bt_bt1.png" alt="">
+                            <img src="image/ft_bt_bt2.png" alt="">
+                            <img src="image/ft_bt_bt3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="search_area">
+        <div class="search_content">
+            <img src="image/dq_logo.png" alt="">
+            <h3><i class="fa-solid fa-magnifying-glass"></i> 제품 검색</h3>
+            <form action="">
+                <input id="search" type="text" placeholder=" 제품명을 입력해주세요.">
+                <input id="btn" type="submit" value="검색">
+            </form>
+            <strong>인기검색어</strong>
+            <div class="list">
+                <span>
+                    <p><em>1</em>오 드 퍼퓸 플레르 드 뽀 75ml</p>
+                    <p><em>3</em>오 드 퍼퓸 탐 다오 75ml</p>
+                    <p><em>5</em>오 드 뚜왈렛 도손 50ml</p>
+                </span>
+                <span>
+                    <p><em>2</em>오 드 뚜왈렛 오 로즈 100ml</p>
+                    <p><em>4</em>베리 라지 캔들 34번가 생제르망</p>
+                    <p><em>6</em>라드로게리 캔들 190g</p>
+                </span>
+            </div>
+        </div>
+        <button class="search_close_btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="log_area">
+        <div class="log_content">
+            <img src="image/dq_logo.png" alt="">
+            <h3><i class="fa-solid fa-user"></i> 로그인</h3>
+            <form action="">
+                <span id="id">
+                    <p>ID</p><input  type="userName" placeholder="아이디를 입력하세요.">
+                </span>
+                <span id="pw"><p>PW</p><input type="password" name="password" placeholder="패스워드를 입력하세요."></span>
+                <label class="remember_check" for="remember_check">
+                    <input type="checkbox" id="remember_check">아이디 저장하기
+                </label>
+                <input class="btn" type="submit" value="로그인">
+            </form>
+        </div>
+        <button class="log_close_btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="shopping_area">
+        <div class="shopping_content"> 
+            <img src="image/dq_logo.png" alt="">
+            <h3><i class="fa-solid fa-bag-shopping"></i> 장바구니</h3>
+            <nav>
+                <strong>장바구니에 담은 상품이 없습니다.</strong>
+                <p>로그인을 하시면, 장바구니에 보관된 상품을 확인하실 수 있습니다. </p>
+                <button class="log_go"><a href="">로그인하기</a></button>
+            </nav>
+        </div>
+        <button class="shopping_close_btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+</body>
+</html>
