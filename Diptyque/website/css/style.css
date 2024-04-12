@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/* .nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* .nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* movie */
+.movie video{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+/* .sub_benner */
+.sub_benner{
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.sub_benner .inner{
+  display: flex;
+  flex-direction: column;
+}
+.sub_benner h3{
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.sub_benner a{
+  height: 50px;
+  object-fit: cover;
+}
+.sub_benner img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.swiper-pagination {
+  position: absolute;
+  padding-top: 10px;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: black;
+  border: 2px solid gray;
+ }
+/* product_list */
+.product_list .list_img  ul{
+  width: 1190px;
+  display: flex;
+  gap: 30px;
+  padding: 30px 0;
+  padding-bottom: 60px;
+
+}
+
+.product_list img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0.8);
+  transition: all 0.2s;
+  border-radius: 10px;
+}
+
+.product_list img:hover{
+  filter: brightness(0.5);
+}
+
+
+.product_list .list_img li {
+  position: relative;
+}
+.product_list .list_img li strong{
+  position: absolute;
+  font-family: "Nanum Myeongjo", serif;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* /cafe */
+.cafe .inner{
+  width: 1190px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.cafe .inner .img_box{
+  display: flex;
+  flex-direction: column;
+  padding:  0 767px;
+}
+.cafe .inner .img_box_top{
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+}
+.cafe .inner .img_box_top img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cafe .img_box{
+  display: flex;
+  gap: 45px;
+}
+.cafe    .tit_box h3,
+.cafe   .tit_box p{
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.cafe   .tit_box h3{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.cafe .img_box_bt   .tit_box h3{
+  padding-bottom: 10px;
+}
+.cafe  .tit_box p{
+  padding-top: 10px;
+}
+
+.cafe  .inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cafe .img_box_bt ul{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.cafe .img_box_bt li{
+  width: 220px;
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+  transition: all 0.3s;
+  border: 1px solid lightgray;
+}
+.cafe .img_box_bt li .img_hover{
+  display: none;
+}
+.cafe .img_box_bt li:hover{
+  box-shadow: 0 0 20px rgba(27, 27, 27, 0.397);
+  transform: scale(1.1);
+}
+.cafe .img_box_bt li:hover .img_nohover{
+  display: none;
+}
+.cafe .img_box_bt li:hover .img_hover{
+  display: block;
+}
+.cafe .img_box_bt li .img_hover {
+  width: 220px;
+  height: 260px;
+}
+.cafe .img_box_bt li .img_hover img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.cafe .img_box_bt .box_top span i{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.2rem;
+  color: rgb(148, 148, 148);
+  transition: all 0.3s;
+}
+.cafe .img_box_bt .box_top span i:hover{
+  color: rgb(196, 57, 57);
+}
+
+.cafe .img_box_bt .box_top img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+}
+.cafe .img_box_bt .box_top{
+  width: 220px;
+  height: 266px;
+}
+.cafe .img_box_bt .box_bt span{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 220px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.name{
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 15px;
+}
+.sale{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(243, 186, 0);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.pay{
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+.box_bt span .pay:nth-child(4){
+  padding-top: 10px;
+}
+.box_bt span .review{
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-top: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.box_bt span .review em{
+  color: rgb(179, 179, 179);
+}
+
+/* mini_benner */
+.swiper-button-prev:after {
+  content: "";
+}
+.swiper-button-next:after {
+  content: "";
+}
+.mini_banner .swiper{
+  width: 1190px;
+  padding-top: 30px;
+}
+.mini_banner .swiper-slide img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.main_vs_btns button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+}
+.main_vs_btns .swiper-pagination{
+  font-weight: bold;
+}
+.main_vs_btns button img{
+  width: 6px;
+}
+.main_vs_btns {
+  display: flex;
+  align-items: center;
+  line-height:6px;
+  width: 400px;
+  height: 30px;
+  gap: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.main_vs_btns img{
+  width: 15px;
+}
+
+.main_vs_btns > * {
+  width: 20px;
+  height: 20px;
+  position: static;
+  left: 0;
+  top: 0;
+  margin-top: 0;
+}
+
+.swiper-pagination {
+  position: static;
+  width: auto;
+}
+/* this_spring */
+.this_spring .inner{
+  width: 1190px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.this_spring .inner .img_box_lt{
+  height: 530px;
+  width: 350px;
+}
+.this_spring .inner .img_box_lt img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.this_spring .img_box{
+  display: flex;
+  gap: 45px;
+}
+
+.this_spring .tit_box  h3,
+.this_spring .tit_box  p{
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.this_spring .tit_box  h3{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.this_spring .tit_box  span p{
+  padding-top: 10px;
+}
+
+.this_spring .img_box_rt ul{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.this_spring .img_box_rt li{
+  width: 180px;
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+  transition: all 0.3s;
+  border: 1px solid lightgray;
+  padding-top: 20px;
+}
+.this_spring .img_box_rt li .img_hover{
+  display: none;
+}
+.this_spring .img_box_rt li:hover{
+  box-shadow: 0 0 20px rgba(27, 27, 27, 0.397);
+  transform: scale(1.15);
+}
+.this_spring .img_box_rt li:hover .img_nohover{
+  display: none;
+}
+.this_spring .img_box_rt li:hover .img_hover{
+  display: block;
+}
+
+
+
+.this_spring .img_box_rt .box_top span i{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.2rem;
+  color: rgb(148, 148, 148);
+  transition: all 0.3s;
+}
+.this_spring .img_box_rt .box_top span i:hover{
+  color: rgb(196, 57, 57);
+}
+
+.this_spring .img_box_rt .box_top img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+}
+.this_spring .img_box_rt .box_top{
+  width: 180px;
+  height: 266px;
+}
+.this_spring .img_box_rt .box_bt span{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 180px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+}
+/* images */
+.images .inner{
+  display: flex;
+  width: 1190px;
+  padding-top: 30px;
+}
+.images .img_box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.images .img_box img{
+  width: calc((100% - 30px)/2);
+  object-fit: contain;
+}
+
+
+/* ladroguerie */
+.ladroguerie .inner{
+  width: 1190px;
+  border: 1px solid black;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.ladroguerie .inner .img_box_lt{
+  width: 356px;
+}
+.ladroguerie .inner .img_box_lt img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.ladroguerie .img_box_rt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 834px;
+}
+.ladroguerie .img_box_rt span{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0 90px;
+}
+.ladroguerie .tit_box   h3,
+.ladroguerie .tit_box  p{
+  font-family: "Nanum Myeongjo", serif;
+}
+.ladroguerie .tit_box h3{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.ladroguerie .tit_box p{
+  line-height: 20px;
+}
+.ladroguerie .img_box_rt ul{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.ladroguerie .img_box_rt li{
+  border-radius: 10px;
+  padding-top: 20px;
+  position: relative;
+  background-color: white;
+  transition: all 0.3s;
+  border: 1px solid lightgray;
+}
+.ladroguerie .img_box_rt li:hover{
+  transform: scale(1.15);
+}
+.ladroguerie .img_box_rt li:hover{
+  box-shadow: 0 0 20px rgba(27, 27, 27, 0.397);
+}
+
+.ladroguerie .img_box_rt .box_top span i{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.2rem;
+  color: rgb(148, 148, 148);
+  transition: all 0.3s;
+}
+.ladroguerie .img_box_rt .box_top span i:hover{
+  color: rgb(196, 57, 57);
+}
+.ladroguerie .img_box_rt .box_top img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+}
+.ladroguerie .img_box_rt .box_top{
+  width: 200px;
+  height: 266px;
+}
+.ladroguerie .img_box_rt .box_bt span{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+}
+/* service */
+.service .inner{
+  width: 1190px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+.service .inner img{
+  width: 60%;
+}
+
+
+  /* mouse */
+  
+  .mouse{
+    overflow: hidden;
+    padding-bottom: 100px;
+  }
+  
+  .mouse ul{
+    display: flex;
+    width: calc(200px * 15);
+  }
+  
+  .mouse ul li{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .mouse ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  

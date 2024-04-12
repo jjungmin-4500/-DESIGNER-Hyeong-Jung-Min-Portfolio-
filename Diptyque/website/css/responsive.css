@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+  overflow-x: hidden;
+}
+
+
+.pc_show {
+  display: block;
+}
+.pc_hide {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  #main header .wrap{width: 100%;}
+  .tb_show {
+    display: block;
+  }
+  .tb_hide {
+    display: none;
+  }
+
+  .inner {
+    padding: 0 5%;
+  }
+  
+  .ladroguerie .img_box_lt{
+    display: none;
+    
+  }
+  .ladroguerie .img_box_rt{
+    display: flex;
+    justify-content: center;
+  }
+  .ladroguerie .img_box_rt span{
+    padding: none;
+  }
+  .ladroguerie .inner{
+    border: transparent;
+  }
+}
+@media (max-width: 1000px) {
+  
+  .ladroguerie .wrap{
+
+    padding: 0 50px;
+  }
+  
+
+}
+@media (max-width: 639px) {
+  .mb_show {
+    display: block;
+  }
+  .mb_hide {
+    display: none;
+  }
+  #main header .wrap .res_btn{position: absolute; display: block; top: 50%; right:20px; transform: translateY(-50%);}
+
+  #main header .wrap .res_btn i:first-child{display: block;}
+  #main header .wrap .res_btn i:last-child{display: none;}
+
+  /*메뉴가 나왔을 때*/
+  #main header .wrap.showMenu .res_btn i:first-child{display: none;}
+  #main header .wrap.showMenu .res_btn i:last-child{display: block;}
+
+  /*반응형에서 메뉴 위치*/
+  #main header .wrap .menu{position: absolute; top:60px; left:0; width: 100%; background-color: #edefef; max-height:0; overflow: hidden; transition: max-height 0.5s;}
+
+
+  #main header .wrap.showMenu .menu{max-height: 400px;}
+
+
+  #main header.sticky .wrap .menu{top:40px;}
+
+  #main header .wrap .menu > ul > li{width: 100%;}
+}
